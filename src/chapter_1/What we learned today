@@ -1,0 +1,10 @@
+
+GitHub
+Create local repository for our new project :
+VCS -> enable to control entegration
+
+Link our project to our Github account:
+IntelliJ IDE -> Preferences -> Version Control -> GitHub -> log in via GitHub (click '+' icon) and login
+
+For push our project to GitHub:
+Git -> commit
