@@ -7,4 +7,11 @@ Link our project to our Github account:
 IntelliJ IDE -> Preferences -> Version Control -> GitHub -> log in via GitHub (click '+' icon) and login
 
 For push our project to GitHub:
-Git -> commit
+1. Git -> commit(first make commit)
+2. Git -> push
+
+For first time push our project to GitHub:
+1. Git -> commit
+2. Git -> GitHub -> Share project on GitHub -> share
+3. Git -> GitHub -> Open on GitHub(for open our GitHub account)
+
