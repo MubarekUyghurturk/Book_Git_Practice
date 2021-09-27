@@ -1,0 +1,40 @@
+
+ 2 types of version control
+ 1) Centralize version control system
+  -SVN
+  -CVS
+ 2) Distributed version control system
+  -Git
+  -Bazaar
+
+  Git is for command line, also offline usage.
+
+  There are 2 type of repository:
+ 1) Git local repo
+ 2) Remote repo(Github, GitLab)
+
+
+ What is Git?
+ Git is an application, is on our computer. It works with command line. It is a version control system.
+ version control means --- it can trak your files on intellij.
+
+ What is GitHub?
+ GitHub is a open source website, remote repository for collaboration.
+
+ How to Git setup on terminal?
+ git config --global user.name "YourGitHubUserName"
+ git config --global user.email email@gmail.com
+ git config --global user.password "password"
+
+
+ How to create local repo by using terminal in Mac?
+ 1) go to project, right click project and copy absolute path of project.
+ 2) open terminal, type ---> cd (paste copy) and enter
+ 3) git init ===> created
+ 4) git add . ===> your code will be in staging area.
+ 5) git commit -m"write your commit here"
+
+
+ Git workflow:
+ 1) create code
+
