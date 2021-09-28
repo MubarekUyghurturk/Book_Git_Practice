@@ -35,6 +35,12 @@
  5) git commit -m"write your commit here"
 
 
- Git workflow:
- 1) create code
+ When we wanna track our project:
+ 1) git init === create git repository (one time only)
+ 2) git add. === add the changes to staging area
+ 3) git commit -m"massage" === commit the changes into git repo with message
+
+ git lod === is for check commit history (for escape --> type q or wq)
+ git status === is for check which step we are at
+
 

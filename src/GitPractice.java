@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class GitPractice {
+public class GitPractice {
+    public static void main(String[] args) {
+        System.out.println("Use terminal");
+    }
 }
