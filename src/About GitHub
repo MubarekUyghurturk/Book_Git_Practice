@@ -1,46 +1,60 @@
-
- 2 types of version control
- 1) Centralize version control system
-  -SVN
-  -CVS
- 2) Distributed version control system
-  -Git
-  -Bazaar
-
-  Git is for command line, also offline usage.
-
-  There are 2 type of repository:
- 1) Git local repo
- 2) Remote repo(Github, GitLab)
+====== How to create .gitignore file? ======
+   First select the file or folder that we want to ignore than right click
+   Git -> Add to .gitignore -> Add to .gitignore
 
 
- What is Git?
- Git is an application, is on our computer. It works with command line. It is a version control system.
- version control means --- it can trak your files on intellij.
-
- What is GitHub?
- GitHub is a open source website, remote repository for collaboration.
-
- How to Git setup on terminal?
- git config --global user.name "YourGitHubUserName"
- git config --global user.email email@gmail.com
- git config --global user.password "password"
+   ====== How to create local repository? ======
+   Click VCS -> enable to version control integration -> select 'Git' -> Ok
 
 
- How to create local repo by using terminal in Mac?
- 1) go to project, right click project and copy absolute path of project.
- 2) open terminal, type ---> cd (paste copy) and enter
- 3) git init ===> created
- 4) git add . ===> your code will be in staging area.
- 5) git commit -m"write your commit here"
+   ======= How to add your GitHub.com to your IntelliJ? =======
+   Click IntelliJ IDEA -> Preferences -> Version Control(on the left side) -> GitHub -> Add Account -> if you used 'Jetbrains toolbox' when you install your IDE the link lead you to the jetbrains.com than you can click the 'Authorize in GitHub' button -> Apply and Ok
 
 
- When we wanna track our project:
- 1) git init === create git repository (one time only)
- 2) git add. === add the changes to staging area
- 3) git commit -m"massage" === commit the changes into git repo with message
+   ======= How to share your Project/package/code on GitHub? ======
+   1) After finish your code your have to:
+   Click Git -> Commit -> add Commit Message -> Click Commit
+   2) Click Git -> GitHub -> Share Project on GitHub -> Share
+   (you can only able to click 'share project' button one time, after than you have to 'push' your code to github not share)
+   3) to see your project on GitHub:
+   Click Git -> Github -> Open On GitHub
 
- git lod === is for check commit history (for escape --> type q or wq)
- git status === is for check which step we are at
+
+   ======= How to untrack file and folder? ======
+   For untrack '.idea' folder we use ==> git rm -r --cached .idea
+   For untrak 'AutomationProject.iml' file ==> git rm --cached AutomationProject.iml
 
 
+   ======== How to fetch the code from remote repo? =======
+   If something new in our remote repo, we have to fetch the code first , than pull the code. The process might be:
+   Click Git -> Fetch(if we do fetch, out local repo get the information from the remote repo) -> than click 'pull' ->
+
+
+   ========= How to change if we made a last commit wrong? =========
+   First go to 'Log' double click wrong commit.
+   Edit Commit Message -> make some change -> Ok
+
+
+   ========
+
+
+
+-----------------------------------------------------------------------------------
+
+   ====== How to Git setup on terminal? ======
+   git config --global user.name "YourGitHubUserName"
+   git config --global user.email email@gmail.com
+   git config --global user.password "password"
+
+
+
+   ====== How to create local repo by using terminal in Mac? ======
+   1) go to project, right click project and copy absolute path of project.
+   2) open terminal, type ---> cd (paste copy) and enter
+   3) git init ===> created
+   4) git add . ===> your code will be in staging area.
+   5) git commit -m"write your commit here"
+
+
+   git lod === is for check commit history (for escape --> type q or wq)
+   git status === is for check which step we are at
